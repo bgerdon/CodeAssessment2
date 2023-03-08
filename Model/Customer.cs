@@ -14,5 +14,7 @@ namespace CodingAssessment.Model
         public string ModifyBy { get; set; }
         public DateTime ModifyDT { get; set; }
 
+        public bool? Disabled { get; set; }
+
     }
 }
